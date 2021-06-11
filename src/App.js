@@ -9,8 +9,6 @@ function App() {
 
       <Header />
       <Post />
-      <h1>Hello React JS</h1>
-      <p>Welcome to react learning </p>
     </div>
   );
 }

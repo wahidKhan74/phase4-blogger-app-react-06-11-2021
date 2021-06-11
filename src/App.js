@@ -1,4 +1,5 @@
 import Header from './component/Header';
+import Post from './component/Post';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="container">
 
       <Header />
+      <Post />
       <h1>Hello React JS</h1>
       <p>Welcome to react learning </p>
     </div>

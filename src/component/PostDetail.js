@@ -3,6 +3,7 @@ import React from 'react';
 const PostDetail = (props) => {
     console.log(props);
 
+   
     return (
         <div className="card bg-light mb-3">
             <h5 className="card-header"> {props.post.title} </h5>
@@ -12,7 +13,8 @@ const PostDetail = (props) => {
                 <p className="card-text"> Category : {props.post.category}</p>
             </div>
             <div className="card-footer">
-                <button className="btn btn-sm btn-outline-danger" type="button">
+                <button className="btn btn-sm btn-outline-danger" 
+                onClick={ ()=> {props.onDelete(props.post.id);} } type="button">
                     Delete
                 </button>
             </div>
